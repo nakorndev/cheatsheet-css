@@ -193,7 +193,7 @@ h1, h2.head {} /* <h1> และ <h2 class="head"> */
 <i>สีแดง</i>
 ```
 
-## Pseudo-classes
+## 📑 Pseudo-classes
 
 ```css
 a:hover {}    /* เมื่อ <a> ถูกชี้ด้วยเมาส์ (ไม่รองรับบนมือถือ) */
@@ -225,7 +225,7 @@ li:only-child {}      /* เลือกเฉพาะ li ที่ต้อง
 a:not(.active) {}     /* เลือก <a> ก็ต่อเมื่อไม่มี class="active" */
 ```
 
-## Pseudo-elements
+## 📑 Pseudo-elements
 
 ```css
 p::first-line {}    /* เลือกเฉพาะบรรทัดแรกใน <p> */
@@ -235,7 +235,7 @@ li::before { content: "" } /* กำหนดเนื้อหาก่อน�
 li::after { content: "" }  /* กำหนดเนื้อหาหลังจาก <li> */
 ```
 
-## Units
+## 🔢 Units
 
 สำหรับการกำหนดขนาดกับ Property ต่างๆ
 
@@ -250,7 +250,7 @@ li::after { content: "" }  /* กำหนดเนื้อหาหลัง�
 |`vh`|อ้างอิงตามความสูงหน้า Web Browser|
 |`%`|เปอร์เซ็นต์|
 
-## Box Model
+## 🔲 Box Model
 
 ```css
 width: 150px;       /* ปรับขนาดความกว้าง 150px */
@@ -294,7 +294,7 @@ border-top-left-radius: 5px ;     /* ปรับขอบมนมุมบน�
 outline: 1px solid black;         /* ปรับขอบนอกที่จะไม่กระทบกับ Element อื่นๆ */
 ```
 
-## Color Value
+## 🎨 Color Value
 
 |Code|ความหมาย|
 |-|-|
@@ -303,7 +303,7 @@ outline: 1px solid black;         /* ปรับขอบนอกที่จ�
 |`rgb(255, 0, 0)`|โค้ดสี RGB|
 |`rgba(255, 0, 0, 0.5)`|โค้ดสี RGBA (โปร่งแสง)|
 
-## Background
+## 🌄 Background
 
 ```css
 /* กำหนดสี */
@@ -339,7 +339,7 @@ background-attachment: fixed;   /* คงที่ทั้งหมด */
 
 > กำหนดพื้นหลังแบบไล่ระดับสีได้ที่ [https://cssgradient.io/](https://cssgradient.io/)
 
-## Text
+## 🔤 Text
 
 ```css
 color: red;           /* สีข้อความ */
@@ -361,7 +361,7 @@ letter-spacing: 1em;  /* ระยะห่างระหว่างอัก�
 line-height: 1.35;    /* ความสูงของบรรทัด */
 ```
 
-## Font
+## 🔠 Font
 
 ```css
 font-size: 1em;           /* ปรับขนาดฟอนต์ */
@@ -380,7 +380,7 @@ font-family: 'Courier New', Courier, monospace;
 font-family: "NewFont";
 ```
 
-## Shadow
+## 🌗 Shadow
 
 ```css
 /* เงาข้อความ */
@@ -392,7 +392,7 @@ box-shadow: 3px -3px 10px 3px rgb(0, 0, 0, 0.5);
 box-shadow: inset 3px -3px 10px 3px rgb(0, 0, 0, 0.5);
 ```
 
-## Display
+## 🖥️ Display
 
 ```css
 display: block;         /* แสดงแบบ Block */
@@ -404,7 +404,7 @@ visibility: hidden;     /* ซ่อนการแสดงผล (ยังค
 opacity: 0.5;           /* โปร่งแสง Element */
 ```
 
-## Position
+## 🧭 Position
 
 ```css
 position: static;   /* ตำแหน่งคงที่ */
@@ -429,7 +429,7 @@ z-index: 199; /* ความสำคัญในแกน Z (การแส�
 </div>
 ```
 
-## Float
+## 🌅 Float
 
 ```html
 <img style="float: left;" src="http://via.placeholder.com/50" alt="" />
@@ -437,7 +437,7 @@ z-index: 199; /* ความสำคัญในแกน Z (การแส�
 <p>Esse nisi culpa et cupidatat laboris ex est esse fugiat nisi duis dolor mollit.</p>
 ```
 
-## Flexbox
+## 💪 Flexbox
 
 ![flex-structure](https://i.imgur.com/L8s5k4z.png)
 
@@ -451,7 +451,7 @@ flex-direction: column;         /* แนวตั้ง */
 flex-direction: column-reverse; /* แนวตั้งแบบกลับด้าน */
 ```
 
-## Flex Wrap
+## 💪 Flex Wrap
 
 ![flex-wrap](https://i.imgur.com/MjuSK6t.png)
 
@@ -462,7 +462,7 @@ flex-wrap: wrap;            /* ตัดเนื้อหาบรรทัด�
 flex-wrap: wrap-reverse;    /* ตัดเนื้อหาบรรทัดต่อไปแบบกลับด้าน */
 ```
 
-## Flex Grow
+## 💪 Flex Grow
 
 ![flex-grow](https://i.imgur.com/B5Y1J1V.png)
 
@@ -477,7 +477,7 @@ flex-shrink: 1;
 flex-shrink: 4;
 ```
 
-## Flex Justify
+## 💪 Flex Justify
 
 ![justify-content](https://i.imgur.com/1Bqs3jQ.png)
 
@@ -490,7 +490,7 @@ justify-content: space-between;
 justify-content: space-around;
 ```
 
-## Flex Align (flex-wrap: nowrap;)
+## 💪 Flex Align (flex-wrap: nowrap;)
 
 ![flex-align-nowrap-1](https://i.imgur.com/mUvZmeH.png)
 ![flex-align-nowrap-2](https://i.imgur.com/qznYHYZ.png)
@@ -513,7 +513,7 @@ align-items: stretch;
 align-items: baseline;
 ```
 
-## Flex Align (flex-wrap: wrap;)
+## 💪 Flex Align (flex-wrap: wrap;)
 
 ![flex-align-wrap-1](https://i.imgur.com/0IZtfhF.png)
 ![flex-align-wrap-2](https://i.imgur.com/p1ys48J.png)
@@ -528,7 +528,7 @@ align-content: space-between;
 align-content: space-around;
 ```
 
-## Transform
+## 👨🏾‍🤝‍👨🏻 Transform
 
 ```css
 transform: translateX(10px);        /* ย้ายไปทางขวา 10 px */
@@ -548,7 +548,7 @@ transform: rotate(0.5 turn);        /* หมุนครึ่งวงกล�
 transform: skew(40deg);             /* เอียงเนื้อหา 40 องศา */
 ```
 
-## Time Unit
+## ⏲ Time Unit
 
 สำหรับการกำหนดเวลา
 
@@ -559,7 +559,7 @@ transform: skew(40deg);             /* เอียงเนื้อหา 40 �
 
 > `1s` = `1000ms`
 
-## Transition
+## 🐌 Transition
 
 ```css
 transition-delay: 1s;           /* ดีเลย์ช่วงเวลาเคลื่อนไหว 1 วินาที */
@@ -579,7 +579,7 @@ transition: 1s;
 transition: background-color 500ms linear;
 ```
 
-## Animation
+## 🏃‍♂️ Animation
 
 ```css
 /* กำหนดชื่อให้กับอนิเมชั่น */
@@ -615,7 +615,7 @@ transition: background-color 500ms linear;
 }
 ```
 
-## Media Queries
+## 📱 Media Queries
 
 ```css
 /* เมื่อมีขนาดหน้าจอไม่เกิน 600px */
