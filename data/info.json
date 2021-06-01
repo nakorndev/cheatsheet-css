@@ -1,0 +1,18 @@
+{
+  "mainUrl": "https://nakorndev.github.io/cheatsheet-css/",
+  "startUrl": "/cheatsheet-css/",
+  "title": "CSS Cheatsheet",
+  "description": "สูตรโกงสำหรับการใช้งาน CSS",
+  "keywords": "cheatsheet, css",
+  "themeLight": false,
+  "themeColor": "#2196F3",
+  "lang": "th",
+  "author": {
+    "name": "nakorndev",
+    "link": "http://github.com/nakorndev"
+  },
+  "menus": [
+    { "label": "เรียนรู้การเขียนโค้ดกับ นครโค้ด", "href": "https://www.facebook.com/nakorncode" },
+    { "label": "รวมสูตรโกงอื่นๆ", "href": "https://nakorndev.github.io/cheatsheet/" }
+  ]
+}

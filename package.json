@@ -1,0 +1,15 @@
+{
+  "name": "cheatsheet-makecode",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "build": "cheese-sheet --dist=dist --cheatsheet=data/cheatsheet.md --info=data/info.json --logo=data/logo.png"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cheese-sheet": "^1.0.0"
+  }
+}
